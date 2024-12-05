@@ -4,7 +4,7 @@ from pathlib import Path
 from os import getenv, path
 
 from dotenv import load_dotenv
-from wagtail.project_template.project_name.settings.base import INSTALLED_APPS
+# from wagtail.project_template.project_name.settings.base import INSTALLED_APPS
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
